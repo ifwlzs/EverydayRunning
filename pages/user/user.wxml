@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="page-body">
+    <swiper class="body-pic" indicator-dots="true" autoplay="ture" interval="2000">
+      <swiper-item> <image src='/images/bg7.jpg'></image></swiper-item>
+      <swiper-item> <image src='/images/bg2.jpg'></image></swiper-item>
+      <swiper-item> <image src='/images/bg3.jpg'></image></swiper-item>
+        </swiper>
+  </view>
+  <view>成绩查询界面，待学校阳光长跑服务器开启后完善本页面</view>
+</view>

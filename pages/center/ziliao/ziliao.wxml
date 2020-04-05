@@ -1,0 +1,8 @@
+<view class="basis">
+<view>姓名：{{name}}</view>
+<view>专业：{{major}}</view>
+<view>学制：{{system}}</view>
+<view>年级：{{grade}}</view>
+<view>班级：{{s_class}}</view>
+<view>二级学院：{{college}}</view>
+</view>

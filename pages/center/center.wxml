@@ -1,0 +1,21 @@
+<view class="b1 float">
+  <view class="head float">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="name float">
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+
+<block wx:for="{{userListInfo}}" wx:key="key" >
+  <view class="b2" catchtap="centernew" data-mark="{{index}}" >
+    <view class="b3">
+      <image src="{{item.icon}}"></image> <!--获取列表图标 -->
+    </view>
+      <view class="b4">
+        <view bindtap='{{item.Lname}}'>{{item.text}}</view>  <!--列表内容 -->
+      </view>
+         <view class="listimage" style='background-image:url(/images/小箭头.png);'></view> <!--获取箭头  -->
+       <!-- <view class="listimage"> <image src="/images/小箭头.png"> </image></view> -->
+  </view>
+</block>

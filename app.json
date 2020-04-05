@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/submit/submit",
+    "pages/center/center",
+    "pages/center/ziliao/ziliao",
+    "pages/center/gaimima/gaimima",
+    "pages/center/jindu/jindu",
+    "pages/center/lianxi/lianxi"
+      ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Qzu阳光长跑",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/user/user",
+        "text": "长跑首页",
+        "iconPath": "images/查询.png",
+        "selectedIconPath": "images/查询.png"
+      },
+      {
+        "pagePath": "pages/submit/submit",
+        "text": "错误上报",
+        "iconPath": "images/上报.png",
+        "selectedIconPath": "images/上报.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "个人中心",
+        "iconPath": "images/个人.png",
+        "selectedIconPath": "images/个人.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}
