@@ -4,8 +4,10 @@ const app = getApp()
 
 Page({
   data: {
-    username: '',
-    password: ''
+    username: '3170227102',
+    password: '3170227102'
+    // username: '',
+    // password: ''
   },
   //事件处理函数
   bindViewTap: function () {

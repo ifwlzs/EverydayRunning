@@ -1,5 +1,47 @@
-.basis{
-    padding: 25px;
-    background-color: rgba(255,255,255,0.5);
-    margin: 5px;
+.basis {
+    padding: 40rpx;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0rpx;
+}
+
+.table {
+    margin: 0 0rpx;
+}
+
+.tr {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+}
+
+.td{
+    width: 25%;
+    text-align: left;
+    justify-content: center;
+    border: 1px red solid;
+}
+.tdd {
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    border: 1px red solid;
+}
+
+.tdt {
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+    border: 1px red solid;
+}
+
+.bt {
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #005a8755;
+    color: white;
+    /* border: 1px red solid; */
 }

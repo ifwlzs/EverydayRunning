@@ -1,2 +1,23 @@
 <!--pages/center/Gaimima/Gaimima.wxml-->
-<text>pages/center/Gaimima/Gaimima.wxml</text>
+<form bindsubmit='loginForm' >
+	<view>
+		<text>姓名:{{name}}</text>
+	</view>
+	<view>
+		<text>学号:{{stu_id}}</text>
+	</view>
+	<view>
+		<text>新密码：</text>
+		<input name="password" type="password" value="{{is_pwd}}" class="inputView" placeholder="请输入新密码"></input>
+	</view>
+	<view>
+		<text>确认密码：</text>
+		<input name="password" type="password" class="inputView" placeholder="请确认新密码" value="{{is_pwd2}}" bindinput="toCheak"></input>
+	</view>
+	<view>
+		<text id="wrong"></text>
+	</view>
+	<view class='ligin-button'>
+		<button formType="submit" type='primary'>确认修改</button>
+	</view>
+</form>

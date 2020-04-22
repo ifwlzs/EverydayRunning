@@ -94,5 +94,17 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  fixMajor:function(){
+    // 修改专业
+    console.log("修改专业")
+  },
+  fixGrade:function(){
+    // 修改年级
+    console.log("修改年级")
+  },
+  fixClass:function(){
+    // 修改班级
+    console.log("修改班级")
   }
 })

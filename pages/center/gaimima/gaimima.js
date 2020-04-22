@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    is_pwd2:'',
+    is_pwd:''
   },
 
   /**
@@ -62,5 +63,18 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /*
+  
+  要编写的页面相关方法！！！
+  
+  */
+  toCheckInput: function(){
+    // 判断密码是否一样，不相同修改下面的id为wrong的text标签
+  },
+  loginForm:function(){
+    // 
   }
+
 })

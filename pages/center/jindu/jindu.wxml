@@ -1,2 +1,43 @@
 <!--pages/center/Jindu/Jindu.wxml-->
-<text>pages/center/Jindu/Jindu.wxml</text>
+<view class="up">
+	<text class="now">当前进度状态</text>
+	<text class="progress">{{nowState}}</text>
+  <!-- demo记得删 -->
+  <text class="progress">申报成功</text>
+	<!-- nowState显示当前报错进度，例如审核中50% -->
+</view>
+
+<view class="down">
+	<view class="title">跑步轨迹</view>
+	<view class="title">跑步路程</view>
+	<view class="title">申报时间</view>
+	<view class="title">处理状态</view>
+	<!-- <text>{{route}}</text> -->
+</view>
+
+
+<block wx:for-items="{{runInfoData}}">
+	<!-- 循环遍历取值 好像是这样写的 不太保证 -->
+	<!-- 时间需要修改下 显示出问题了 年月日190303  -->
+	<view class="errorList">
+		<view class='forList'>{{item.route}}</view>
+		<view class='forList'>{{item.distance}}</view>
+		<view class='forList'>{{item.time}}</view>
+		<view class='forList'>{{item.state}}</view>
+	</view>
+</block>
+
+<!-- onload里获取以往报错的数据 然后wx:for显示出来 -->
+<!-- demo -->
+<view class="errorList">
+	<view class='forList'>abaa</view>
+	<view class='forList'>1</view>
+	<view class='forList'>200220</view>
+	<view class='forList'>成功</view>
+</view>
+<view class="errorList">
+	<view class='forList'>abaa</view>
+	<view class='forList'>1</view>
+	<view class='forList'>200220</view>
+	<view class='forList'>成功</view>
+</view>

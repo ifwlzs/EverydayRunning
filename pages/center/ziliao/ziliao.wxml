@@ -1,8 +1,29 @@
-<view class="basis">
-<view>姓名：{{name}}</view>
-<view>专业：{{major}}</view>
-<view>学制：{{system}}</view>
-<view>年级：{{grade}}</view>
-<view>班级：{{s_class}}</view>
-<view>二级学院：{{college}}</view>
+<view class="table">
+	<view class="tr">
+		<view class="td">姓名：</view>
+		<view class="tdt">{{name}}</view>
+	</view>
+	<view class="tr">
+		<view class="td">专业：</view>
+		<view class="tdd">{{major}}</view>
+		<view class="bt" bindtap="fixMajor">修改</view>
+	</view>
+	<view class="tr">
+		<view class="td">学制：</view>
+		<view class="tdt">{{system}}</view>
+	</view>
+	<view class="tr">
+		<view class="td">年级：</view>
+		<view class="tdd">{{grade}}</view>
+		<view class="bt" bindtap="fixGrade">修改</view>
+	</view>
+	<view class="tr">
+		<view class="td">班级：</view>
+		<view class="tdd">{{s_class}}</view>
+		<view class="bt" bindtap="fixClass">修改</view>
+	</view>
+	<view class="tr">
+		<view class="td">二级学院：</view>
+		<view class="tdt">{{college}}</view>
+	</view>
 </view>
